@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 80px;
+  background-color: black;
+  color: antiquewhite;
+  align-content: center;
+
+}
+ul li{
+  list-style: none;
+  margin: 0 50vw;
+}
+
+main {
+  
+  height: 877px;
+  background-color:antiquewhite;
+}
+
+@keyframes load {
+  0% {
+      width: 0;
+  }
+
+  80% {
+      width: 50vw;
+  }
+
+  100% {
+      width: 100vw;
+  }
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
+@keyframes slide1 {
+  0% {
+      transform: translate(-70vw);
+  }
+
+
+  100% {
+      transform: translate(40vw);
+  }
+}
+@keyframes slide2 {
+  0% {
+      transform: translate(-40vw);
+  }
+
+
+  100% {
+      transform: translate(90vw);
+  }
+}
+/* @keyframes slide3 {
+  0% {
+      transform: translate(11vw);
+  }
+
+
+  100% {
+      transform: translate(-100vw);
+  }
+} */
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.slider {
+  background: white;
+  height: 400px;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.img1{
+  transform: translate(-70vw);
+  animation: slide1 2s 5s forwards;
+}
+.img2{
+  transform: translate(-40vw);
+  animation: slide2 2s 5s forwards;
+}
+/* .img3{
+  transform: translate(11vw);
+  animation: slide1 2s 10s alternate-reverse;
+} */
+
+
+
+
+.video{
+  width: 40vw;
+  margin: 7px auto;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+body{
+    background-color: grey;
+}
+ .slider {
+  width: 40vw;
+  margin: 7px auto;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+} 
